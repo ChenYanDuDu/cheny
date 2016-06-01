@@ -15,6 +15,8 @@
 		9DB4001E1CFED0A800A226F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB4001C1CFED0A800A226F0 /* LaunchScreen.storyboard */; };
 		9DB400291CFED0A900A226F0 /* TestSvnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB400281CFED0A900A226F0 /* TestSvnTests.m */; };
 		9DB400341CFED0A900A226F0 /* TestSvnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB400331CFED0A900A226F0 /* TestSvnUITests.m */; };
+		9DB400441CFEE2FC00A226F0 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB400421CFEE2FC00A226F0 /* TestTableViewCell.m */; };
+		9DB400451CFEE2FC00A226F0 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB400431CFEE2FC00A226F0 /* TestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9DB4002F1CFED0A900A226F0 /* TestSvnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSvnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB400331CFED0A900A226F0 /* TestSvnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSvnUITests.m; sourceTree = "<group>"; };
 		9DB400351CFED0A900A226F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB400411CFEE2FC00A226F0 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		9DB400421CFEE2FC00A226F0 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		9DB400431CFEE2FC00A226F0 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				9DB4001C1CFED0A800A226F0 /* LaunchScreen.storyboard */,
 				9DB4001F1CFED0A800A226F0 /* Info.plist */,
 				9DB4000E1CFED0A800A226F0 /* Supporting Files */,
+				9DB400411CFEE2FC00A226F0 /* TestTableViewCell.h */,
+				9DB400421CFEE2FC00A226F0 /* TestTableViewCell.m */,
+				9DB400431CFEE2FC00A226F0 /* TestTableViewCell.xib */,
 			);
 			path = TestSvn;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB4001E1CFED0A800A226F0 /* LaunchScreen.storyboard in Resources */,
+				9DB400451CFEE2FC00A226F0 /* TestTableViewCell.xib in Resources */,
 				9DB4001B1CFED0A800A226F0 /* Assets.xcassets in Resources */,
 				9DB400191CFED0A800A226F0 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB400161CFED0A800A226F0 /* ViewController.m in Sources */,
+				9DB400441CFEE2FC00A226F0 /* TestTableViewCell.m in Sources */,
 				9DB400131CFED0A800A226F0 /* AppDelegate.m in Sources */,
 				9DB400101CFED0A800A226F0 /* main.m in Sources */,
 			);
